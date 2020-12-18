@@ -39,48 +39,50 @@
       </div>
       <div class="column">  
         <div class="pricing-header">
-          <h1 class="display-4" style='margin-left:300px;'>Company Ranking System</h1>
-          <p class="lead" style='margin-left:300px;'>[Company](Website name) is proud to provide a central space to share and find sustainability information on fashion brands. We use a ranking system to categorize companies into varying levels of sustainability</p>
+          <h1>Company Ranking System</h1>
+          <p>[Company](Website name) is proud to provide a central space to share and find sustainability information on fashion brands. We use a ranking system to categorize companies into varying levels of sustainability</p>
         </div>
-        <dl>
-          <dt id="rectangle1"></dt>
-          <dd>Tier 1</dd>
+        <div class="column">
+          <div class="row">
+          <div id="rectangle1"></div>
+          <span>Tier 1</span>
+          </div>
 
-          <dt id="rectangle2"></dt>
-          <dd>Tier 2</dd>
+          <div class="row">
+          <div id="rectangle2"></div>
+          <span>Tier 2</span>
+          </div>
 
-          <dt id="rectangle3"></dt>
-          <dd>Tier 3</dd>
-        </dl>
+          <div class="row">
+          <div id="rectangle3"></div>
+          <span>Tier 3</span>
+          </div>
+        </div>
 
       <!-- Three tabs -->
+        <div>
+          <h1>Sustainability Metrics</h1>
+          <p>As an online portal, (Website name) compiles information using the following metrics.
+          </p>
+        </div>
         <div class="row">
-          <div class="tabContainer">
-            <div class="buttonContainer">
-                <button onclick="showPanel(0,'#267BD4')">Clothing materials</button>
-                <button onclick="showPanel(1,'#267BD4')">Workers' conditions</button>
-                <button onclick="showPanel(2,'#267BD4')">Carbon footprint</button>
-            </div>
-            <div class="tabPanel">
-              <div class="row">
-              <img src="./shirt.png" height=200 style='margin-left:60px;'>
-              <p>[insert rating and description]</p>
-              </div>
-            </div>
-            <div class="tabPanel">
-              <div class="row">
-              <img src="./fan.png" height=200 style='margin-left:60px;'>
-              <p>[insert rating and description]</p>
-              </div>
-            </div>
-            <div class="tabPanel">
-              <div class="row">
-              <img src="./foot.png" height=200 style='margin-left:60px;'>
-              <p>[insert rating and description]</p>
-              </div>
-            </div>
+          <div class="column" style="margin-right: 100px;">
+              <img src="./shirt.png" height=200>
+              <p>Clothing Materials</p>
           </div>
-        
+            
+          
+          <div class="column" style="margin-right: 100px;">
+              <img src="./fan.png" height=200>
+              <p>Workers' Conditions</p>
+          </div>
+          
+         
+          <div class="column" style="margin-right: 100px;">
+              <img src="./foot.png" height=200>
+              <p>Carbon Footprint</p>
+          </div>
+
         </div><!-- /.row -->
       </div><!-- /.colum -->
     <div class="decor2">
@@ -123,7 +125,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="./tabs.js"></script>
     <script>
       Holder.addTheme('thumb', {
         bg: '#55595c',
